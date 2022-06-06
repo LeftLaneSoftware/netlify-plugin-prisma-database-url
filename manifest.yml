@@ -1,0 +1,8 @@
+name: netlify-plugin-prisma-database-url
+inputs:
+  - name: path
+    required: true
+    default: 'api/db/schema.prisma'
+  - name: mode
+    required: false
+    default: prefix
